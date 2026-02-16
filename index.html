@@ -6,6 +6,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* 영상 비율 유지를 위한 반응형 컨테이너 */
+			.video-container {
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 비율 */
+				height: 0;
+				overflow: hidden;
+				max-width: 100%;
+				background: #000;
+				margin-bottom: 2.5rem;
+			}
+			.video-container iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -32,7 +52,7 @@
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.youtube.com/@betterlee_inc" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/betterleeinc" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -45,38 +65,34 @@
 									Op. 19, III. Andante</a></h2>
 									<p>NCM Klassik Studio에서 제작한 라흐마니노프 첼로 소나타 영상입니다.</p>
 								</header>
-								<div class="image main">
-									<iframe width="100%" height="500" src="https://www.youtube.com/embed/fUjH04iJ5oY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								
+								<div class="video-container">
+									<iframe src="https://www.youtube.com/embed/fUjH04iJ5oY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 								</div>
+
 								<ul class="actions special">
-									<li><a href="https://www.youtube.com/@betterlee_inc" class="button large">채널 바로가기</a></li>
+									<li><a href="https://www.youtube.com/@betterlee_inc" class="button large">유튜브 채널 바로가기</a></li>
 								</ul>
 							</article>
 
 						<section class="posts">
 								<article>
 									<header>
-										<span class="date">Recent Project</span>
-										<h2><a href="#">Filming &<br />
-										Editing Service</a></h2>
+										<span class="date">Production</span>
+										<h2><a href="#">High-End<br />
+										Filming</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>전문적인 장비와 감각적인 편집으로 브랜드의 가치를 높이는 고품질 영상을 제작합니다.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">자세히 보기</a></li>
-									</ul>
+									<p>감각적인 영상미와 정교한 편집으로 브랜드의 메시지를 완벽하게 전달합니다.</p>
 								</article>
 								<article>
 									<header>
 										<span class="date">Equipment</span>
-										<h2><a href="#">Professional<br />
-										Gear Ready</a></h2>
+										<h2><a href="#">Cinema<br />
+										Gear</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Sony FX2를 포함한 최신 시네마 장비를 활용하여 최상의 화질을 보장합니다.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">장비 현황</a></li>
-									</ul>
+									<p>최신 시네마 라인 장비를 운용하여 상업 영화 수준의 퀄리티를 구현합니다.</p>
 								</article>
 							</section>
 
@@ -86,17 +102,18 @@
 						<section class="split contact">
 							<section class="alt">
 								<h3>주소</h3>
-								<p>서울특별시 은평구 통일로 (산타플러스빌딩)</p>
+								<p>서울특별시 관악구 난곡로 60<br />
+								산타플러스빌딩 602호</p>
 							</section>
 							<section>
 								<h3>이메일</h3>
-								<p><a href="#">info@betterlee.co.kr</a></p>
+								<p><a href="mailto:betterlee.inc@gmail.com">betterlee.inc@gmail.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
 									<li><a href="https://www.youtube.com/@betterlee_inc" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/betterleeinc" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
